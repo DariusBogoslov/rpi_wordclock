@@ -10,6 +10,7 @@ from . import time_dutch
 from . import time_bavarian
 from . import time_swiss_german
 from . import time_swiss_german2
+from . import time_romanian
 import wordclock_tools.wordclock_colors as wcc
 
 
