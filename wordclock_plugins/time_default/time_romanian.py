@@ -58,7 +58,7 @@ class time_romanian:
             list(range(22,32)), \
             # -> DOUA SPRE ZECE
             list(range(11,15)) + list(range(16,19)) + list(range(28,32))]
-        self.full_hour= list(range(0,0)
+        self.full_hour= list(range(0,0))
 
     def get_time(self, time, purist):
         hour=time.hour % 12+(1 if time.minute//5 >= 7 else 0)
